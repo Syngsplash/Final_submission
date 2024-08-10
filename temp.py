@@ -274,6 +274,11 @@ def chatbot(resume_content):
         else:
             st.error("Please upload a resume.")
 
+
+
+# ABOUT PAGE
+
+
 def about():
     st.title("About")
     st.write("This is a resume assistant application that helps you analyze your skills and improve your resume.")
